@@ -1,0 +1,4 @@
+Parent process done
+main
+main.cpp
+output.txt

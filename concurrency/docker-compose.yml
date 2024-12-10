@@ -5,6 +5,7 @@ services:
     build: .
     volumes:
       - .:/app
+      -  /Users/erikmelqonyan/repos/aca/deep_dive_lessons/concurrency:/container/deep_dive_lessons/concurrency
     working_dir: /app
     stdin_open: true  # Equivalent to -i
     tty: true         # Equivalent to -t

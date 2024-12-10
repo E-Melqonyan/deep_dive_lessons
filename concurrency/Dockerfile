@@ -15,6 +15,7 @@ RUN apt-get -q update -y && \
     add-apt-repository ppa:ubuntu-toolchain-r/test && \
     apt-get -q update -y && \
     apt-get -q install -y --no-install-recommends \
+    psmisc\
     jq \
     vim \
     cmake \
@@ -28,7 +29,7 @@ RUN apt-get -q update -y && \
     libstdc++6 \
     libstdc++-13-dev \
     zlib1g \
-    g++-10 && \
+    g++ && \
     dpkg --configure -a && \
     rm -rf /var/lib/apt/lists/*
 

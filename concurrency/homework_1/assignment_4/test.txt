@@ -1,0 +1,3 @@
+Concurrency is a key topic in modern programming.
+Mastering concurrency requires understanding threads and processes.
+Concurrency can improve program efficiency.
