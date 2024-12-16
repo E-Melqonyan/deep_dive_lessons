@@ -73,6 +73,9 @@ RUN ln -sf /usr/bin/python${PYTHON3_VERSION} /usr/local/bin/python3 && \
 # Set working directory
 WORKDIR /app
 
+COPY .bashrc /root/.bashrc
+COPY .git-prompt.sh /root/.git-prompt.sh
+
 # Set default command to run bash
 ENTRYPOINT ["bash"]
 
